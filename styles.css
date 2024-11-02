@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.home,
+.about,
+.contact-me,
+.projects {
+    animation: fade-up 2s;
+}
+
+.background-link {
+    width: 100vw;  /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url('your-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: block; /* Ensure the div is displayed as a block element */
+  }
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+li::marker {
+    color: rgb(0, 42, 255); /* Change bullet color */
+    font-size: 20px; /* Optional: Adjust bullet size */
+  }
+
+
+  
